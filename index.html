@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Iqra Anees — AI & Data Science</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-trail" id="cursorTrail"></div>
+
+  <!-- Noise overlay -->
+  <div class="noise"></div>
+
+  <!-- Navigation -->
+  <nav id="nav">
+    <div class="nav-logo">IA</div>
+    <ul class="nav-links">
+      <li><a href="#about" data-text="About">About</a></li>
+      <li><a href="#skills" data-text="Skills">Skills</a></li>
+      <li><a href="#projects" data-text="Projects">Projects</a></li>
+      <li><a href="#achievements" data-text="Achievements">Achievements</a></li>
+      <li><a href="#contact" data-text="Contact">Contact</a></li>
+    </ul>
+    <div class="nav-indicator"></div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero-bg-text">IQRA</div>
+    <div class="hero-content">
+      <div class="hero-tag">B.E. AI & Data Science · CGPA 9.2</div>
+      <h1 class="hero-name">
+        <span class="line" data-delay="0">Iqra</span>
+        <span class="line italic" data-delay="150">Anees</span>
+      </h1>
+      <p class="hero-sub">Building intelligent systems <br/>that make an impact.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary">View Work</a>
+        <a href="#contact" class="btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-meta">
+      <div class="meta-item"><span class="meta-label">Location</span><span>Hyderabad, India</span></div>
+      <div class="meta-item"><span class="meta-label">Status</span><span class="status-dot">Open to Internships</span></div>
+      <div class="meta-item"><span class="meta-label">Languages</span><span>English · Hindi · Urdu</span></div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about section" id="about">
+    <div class="section-tag">01 — About</div>
+    <div class="about-grid">
+      <div class="about-left">
+        <h2 class="section-title">Passionate <em>builder</em> &amp; <em>thinker</em></h2>
+        <p class="about-body">
+          I'm a second-year B.E. student specialising in Artificial Intelligence &amp; Data Science at Stanley College of Engineering &amp; Technology for Women, Hyderabad. I combine a strong academic record with hands-on project experience in Python, Java, and JavaScript.
+        </p>
+        <p class="about-body">
+          Certified in Microsoft Azure AI Fundamentals and proficient in English at IELTS Band 7.0 (C1), I bring both technical depth and clear communication to everything I build.
+        </p>
+        <div class="cert-badges">
+          <div class="badge">
+            <div class="badge-icon">☁</div>
+            <div>
+              <div class="badge-name">Microsoft Azure AI</div>
+              <div class="badge-sub">Fundamentals · AI-900</div>
+            </div>
+          </div>
+          <div class="badge">
+            <div class="badge-icon">🗣</div>
+            <div>
+              <div class="badge-name">IELTS Band 7.0</div>
+              <div class="badge-sub">C1 Proficiency</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-right">
+        <div class="edu-card">
+          <div class="edu-header">Education</div>
+          <div class="edu-item current">
+            <div class="edu-dot"></div>
+            <div class="edu-info">
+              <div class="edu-degree">B.E. AI &amp; Data Science</div>
+              <div class="edu-inst">Stanley College of Engineering &amp; Technology for Women</div>
+              <div class="edu-meta">Osmania University · 2024–2028</div>
+              <div class="edu-cgpa">Sem 1: 8.9 &nbsp;·&nbsp; Sem 2: 9.6</div>
+            </div>
+          </div>
+          <div class="edu-item">
+            <div class="edu-dot"></div>
+            <div class="edu-info">
+              <div class="edu-degree">Intermediate (MPC)</div>
+              <div class="edu-inst">MS Junior College</div>
+              <div class="edu-meta">Board of Intermediate Education · 2023</div>
+              <div class="edu-cgpa">Grade: A</div>
+            </div>
+          </div>
+          <div class="edu-item">
+            <div class="edu-dot"></div>
+            <div class="edu-info">
+              <div class="edu-degree">SSC</div>
+              <div class="edu-inst">MS Creative School</div>
+              <div class="edu-meta">Board of Secondary Education · 2021</div>
+              <div class="edu-cgpa">CGPA: 10.0</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills section" id="skills">
+    <div class="section-tag">02 — Skills</div>
+    <h2 class="section-title">Technical <em>Expertise</em></h2>
+    <div class="skills-grid">
+
+      <div class="skill-card" data-category="Languages">
+        <div class="skill-card-header">
+          <span class="skill-icon">{ }</span>
+          <h3>Languages</h3>
+        </div>
+        <div class="skill-tags">
+          <span>Python</span><span>Java</span><span>JavaScript</span>
+          <span>C</span><span>HTML</span><span>CSS</span><span>R</span>
+        </div>
+      </div>
+
+      <div class="skill-card" data-category="Data Science">
+        <div class="skill-card-header">
+          <span class="skill-icon">📊</span>
+          <h3>Data Science & AI</h3>
+        </div>
+        <div class="skill-tags">
+          <span>NumPy</span><span>Pandas</span><span>Matplotlib</span>
+          <span>Seaborn</span><span>EDA</span><span>Time Series</span><span>Data Pre-processing</span>
+        </div>
+      </div>
+
+      <div class="skill-card" data-category="Cloud">
+        <div class="skill-card-header">
+          <span class="skill-icon">☁</span>
+          <h3>AI & Cloud</h3>
+        </div>
+        <div class="skill-tags">
+          <span>Azure AI Services</span><span>Responsible AI</span>
+          <span>Bias Detection</span><span>Model Evaluation</span>
+        </div>
+      </div>
+
+      <div class="skill-card" data-category="Database">
+        <div class="skill-card-header">
+          <span class="skill-icon">🗄</span>
+          <h3>Databases</h3>
+        </div>
+        <div class="skill-tags">
+          <span>SQL</span><span>DDL/DML</span><span>Stored Procedures</span>
+          <span>Triggers</span><span>MongoDB</span><span>ER Modeling</span><span>Normalization</span>
+        </div>
+      </div>
+
+      <div class="skill-card" data-category="Tools">
+        <div class="skill-card-header">
+          <span class="skill-icon">⚙</span>
+          <h3>Tools & Frameworks</h3>
+        </div>
+        <div class="skill-tags">
+          <span>Git</span><span>Power BI</span><span>R Studio</span>
+          <span>React Native</span><span>Redux Toolkit</span><span>MS Office</span>
+        </div>
+      </div>
+
+      <div class="skill-card" data-category="CS">
+        <div class="skill-card-header">
+          <span class="skill-icon">🧠</span>
+          <h3>CS Concepts</h3>
+        </div>
+        <div class="skill-tags">
+          <span>OOP</span><span>SDLC</span><span>Algorithms & DS</span>
+          <span>OS Process Mgmt</span><span>DBMS</span><span>Debugging</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects section" id="projects">
+    <div class="section-tag">03 — Projects</div>
+    <h2 class="section-title">Work &amp; <em>Projects</em></h2>
+    <div class="projects-list">
+
+      <div class="project-item" data-index="01">
+        <div class="project-top">
+          <div class="project-num">01</div>
+          <div class="project-tags-row">
+            <span>React Native</span><span>TypeScript</span><span>Redux Toolkit</span>
+          </div>
+        </div>
+        <h3 class="project-title">NewsReader App</h3>
+        <p class="project-desc">Production-ready React Native news aggregator using TypeScript, Redux Toolkit, and NewsAPI. Built through extensive environment setup on Windows including Java, Gradle, and PATH configuration.</p>
+        <div class="project-arrow">→</div>
+      </div>
+
+      <div class="project-item" data-index="02">
+        <div class="project-top">
+          <div class="project-num">02</div>
+          <div class="project-tags-row">
+            <span>React</span><span>Claude API</span><span>JavaScript</span>
+          </div>
+        </div>
+        <h3 class="project-title">Persona-Adaptive Customer Support Agent</h3>
+        <p class="project-desc">AI-powered customer support agent using a two-pass architecture for persona detection and response enrichment, built in React with the Claude API. Delivered as a deployable VS Code project.</p>
+        <div class="project-arrow">→</div>
+      </div>
+
+      <div class="project-item" data-index="03">
+        <div class="project-top">
+          <div class="project-num">03</div>
+          <div class="project-tags-row">
+            <span>Java</span><span>OOP</span><span>Console App</span>
+          </div>
+        </div>
+        <h3 class="project-title">Bank Account Management System</h3>
+        <p class="project-desc">Single-file Java console application featuring full CRUD operations, fund transfers, and complete transaction history with object-oriented design principles.</p>
+        <div class="project-arrow">→</div>
+      </div>
+
+      <div class="project-item" data-index="04">
+        <div class="project-top">
+          <div class="project-num">04</div>
+          <div class="project-tags-row">
+            <span>HTML/CSS/JS</span><span>Real-time</span><span>Event Management</span>
+          </div>
+        </div>
+        <h3 class="project-title">Stanfest 2k25 — Event Command Centre</h3>
+        <p class="project-desc">Fully interactive single-file event management portal for a college tech fest with real-time operational features, built to solve actual logistical problems identified during the event.</p>
+        <div class="project-arrow">→</div>
+      </div>
+
+      <div class="project-item" data-index="05">
+        <div class="project-top">
+          <div class="project-num">05</div>
+          <div class="project-tags-row">
+            <span>Python</span><span>OOP</span><span>Library System</span>
+          </div>
+        </div>
+        <h3 class="project-title">Library Management System</h3>
+        <p class="project-desc">Python-based Library Management System implementing OOP principles, CRUD operations, and exception handling as part of coursework lab projects.</p>
+        <div class="project-arrow">→</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Achievements -->
+  <section class="achievements section" id="achievements">
+    <div class="section-tag">04 — Recognition</div>
+    <h2 class="section-title">Awards &amp; <em>Achievements</em></h2>
+    <div class="achievements-grid">
+
+      <div class="ach-card gold">
+        <div class="ach-icon">🏆</div>
+        <div class="ach-content">
+          <div class="ach-title">Toastmasters Awards</div>
+          <div class="ach-desc">Won Table Topic & Prepared Speaking Awards competing against 30+ peers at Toastmasters Gavel Club</div>
+        </div>
+      </div>
+
+      <div class="ach-card silver">
+        <div class="ach-icon">🤖</div>
+        <div class="ach-content">
+          <div class="ach-title">2nd Runner-Up — Robotics</div>
+          <div class="ach-desc">Caffeine Robotic Quest at Effat University — hardware-software integration challenge</div>
+        </div>
+      </div>
+
+      <div class="ach-card blue">
+        <div class="ach-icon">🔬</div>
+        <div class="ach-content">
+          <div class="ach-title">National Science Olympiad</div>
+          <div class="ach-desc">National Achiever at NASO — demonstrating strong analytical and quantitative aptitude</div>
+        </div>
+      </div>
+
+      <div class="ach-card purple">
+        <div class="ach-icon">🎓</div>
+        <div class="ach-content">
+          <div class="ach-title">Merit Certificate — EduScape</div>
+          <div class="ach-desc">Recognised at Educational Exhibition EduScape for academic excellence</div>
+        </div>
+      </div>
+
+      <div class="ach-card teal">
+        <div class="ach-icon">👑</div>
+        <div class="ach-content">
+          <div class="ach-title">Ruby House Captain</div>
+          <div class="ach-desc">Elected House Captain at New Al Wurood International School — leadership &amp; representation</div>
+        </div>
+      </div>
+
+      <div class="ach-card orange">
+        <div class="ach-icon">✍</div>
+        <div class="ach-content">
+          <div class="ach-title">Calligraphy Instructor</div>
+          <div class="ach-desc">Designed and delivered Arabic &amp; English calligraphy curriculum to 20+ students at CIO Telangana</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact section" id="contact">
+    <div class="section-tag">05 — Contact</div>
+    <div class="contact-inner">
+      <h2 class="section-title contact-title">Let's <em>work</em><br/>together</h2>
+      <p class="contact-sub">Open to research internships, collaborations, and exciting AI projects. Reach out anytime.</p>
+      <div class="contact-links">
+        <a href="mailto:iqraanees21@gmail.com" class="contact-link">
+          <span class="contact-link-label">Email</span>
+          <span class="contact-link-val">iqraanees21@gmail.com</span>
+          <span class="contact-link-arrow">↗</span>
+        </a>
+        <a href="https://www.linkedin.com/in/iqra-anees-60368a31b" target="_blank" class="contact-link">
+          <span class="contact-link-label">LinkedIn</span>
+          <span class="contact-link-val">iqra-anees-60368a31b</span>
+          <span class="contact-link-arrow">↗</span>
+        </a>
+        <div class="contact-link no-link">
+          <span class="contact-link-label">Phone</span>
+          <span class="contact-link-val">+91 9381225043</span>
+        </div>
+        <div class="contact-link no-link">
+          <span class="contact-link-label">Location</span>
+          <span class="contact-link-val">Hyderabad, India</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-left">Iqra Anees © 2025</div>
+    <div class="footer-center">B.E. AI &amp; Data Science · Stanley College</div>
+    <div class="footer-right">Hyderabad, India</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
